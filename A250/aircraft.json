@@ -7,7 +7,7 @@
     "isRotaryWing": false,
     "hasFlaps": true,
     "model": {
-        "filePath": ""filePath": "https://raw.githubusercontent.com/Joseph704-scg/GeoFS-Custom-Aircraft-/main/A250/Acculon_Plane.glb",
+        "filePath":  "https://raw.githubusercontent.com/Joseph704-scg/GeoFS-Custom-Aircraft-/main/A250/Acculon_Plane.glb",
         "castShadow": true
     },
     "flightModel": {
@@ -77,4 +77,5 @@
             "part": "rudder"
         }
     }
+
 }
