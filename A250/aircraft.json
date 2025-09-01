@@ -1,0 +1,80 @@
+{
+    "name": "Acculon Airways A250-100",
+    "description": "Acculon First plane.",
+    "icao": "A001",
+    "isGlider": false,
+    "hasGears": true,
+    "isRotaryWing": false,
+    "hasFlaps": true,
+    "model": {
+        "filePath": ""filePath": "https://raw.githubusercontent.com/Joseph704-scg/GeoFS-Custom-Aircraft-/main/A250/Acculon_Plane.glb",
+        "castShadow": true
+    },
+    "flightModel": {
+        "flightControls": {
+            "pitchSensitivity": 1.0,
+            "rollSensitivity": 1.0,
+            "yawSensitivity": 1.0
+        },
+        "aerodynamics": {
+            "liftCoefficient": 0.5,
+            "dragCoefficient": 0.05
+        },
+        "engine": {
+            "type": "propeller",
+            "thrust": 1000,
+            "maxRpm": 2500,
+            "idleRpm": 750,
+            "propellerPitch": 1.0
+        },
+        "mass": {
+            "value": 1000,
+            "centerOfMass": [0, 0, 0]
+        }
+    },
+    "cockpit": {
+        "cameraPosition": [0, 0, 1.2],
+        "gauges": [
+            {
+                "type": "airspeed",
+                "position": [0.5, 0.5],
+                "size": 0.2
+            },
+            {
+                "type": "altimeter",
+                "position": [0.5, 0.7],
+                "size": 0.2
+            }
+        ],
+        "cameraConfig": {
+            "pitch": 0.1,
+            "yaw": 0.0
+        }
+    },
+    "controls": {
+        "elevator": {
+            "type": "rotation",
+            "name": "Elevator",
+            "axis": "x",
+            "min": -20,
+            "max": 20,
+            "part": "elevator"
+        },
+        "ailerons": {
+            "type": "rotation",
+            "name": "Ailerons",
+            "axis": "y",
+            "min": -25,
+            "max": 25,
+            "part": "ailerons"
+        },
+        "rudder": {
+            "type": "rotation",
+            "name": "Rudder",
+            "axis": "z",
+            "min": -20,
+            "max": 20,
+            "part": "rudder"
+        }
+    }
+}
